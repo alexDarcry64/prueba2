@@ -1,0 +1,34 @@
+<ion-app>
+  <ion-menu menuId="main-menu" side="start" content-id="principal" >
+    <ion-header>
+      <ion-toolbar translucent>
+        <ion-menu-toggle>
+        <ion-title routerLink="/home">Menu</ion-title>
+      </ion-menu-toggle>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle>
+        <ion-item routerLink="/pagina1">
+          <ion-icon name="person-circle-sharp"></ion-icon>
+          <ion-label>Pagina 1</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/pagina2">
+          <ion-icon name="golf-sharp"></ion-icon>
+          <ion-label>Pagina 2</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/pagina3">
+          <ion-icon name="hammer-sharp"></ion-icon>
+          <ion-label>Pagina 3</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="principal"></ion-router-outlet>
+</ion-app>
